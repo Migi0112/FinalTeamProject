@@ -5250,9 +5250,7 @@
         this._templateFactory.changeContent(content);
       } else {
         this._templateFactory = new TemplateFactory({
-          ...this._config,
-          // the `content` var has to be after `this._config`
-          // to override config.content in case of popover
+          ...this._config,          
           content,
           extraClass: this._resolvePossibleFunction(this._config.customClass)
         });
