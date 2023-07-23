@@ -75,6 +75,6 @@ public class AdminController {
 
 	@GetMapping("/utilities-other")
 	public String utilities_other_get() {
-		return "admin/utilities-other.jsp";
+		return "admin/utilities-other";
 	}
 }
