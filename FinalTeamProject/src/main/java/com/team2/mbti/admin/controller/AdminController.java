@@ -1,6 +1,7 @@
 package com.team2.mbti.admin.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -9,7 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class AdminController {
 
 	@GetMapping("/index")
-	public String index_get() {
+	public String index_get(Model model) {
+		model.addAttribute("title", "메인페이지");
+		
 		return "admin/index";
 	}
 
@@ -19,12 +22,16 @@ public class AdminController {
 	}
 
 	@GetMapping("/register")
-	public String register_get() {
+	public String register_get(Model model) {
+		
+		
 		return "admin/register";
 	}
 
 	@GetMapping("/tables")
-	public String tables_get() {
+	public String tables_get(Model model) {
+		model.addAttribute("title", "회원목록");
+		
 		return "admin/tables";
 	}
 
