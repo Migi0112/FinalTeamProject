@@ -13,7 +13,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>MBTI 관리자 페이지</title>
+    <title>${title }</title>
 
     <!-- Custom fonts for this template-->
     <link href="<c:url value='/admin-css-js/vendor/fontawesome-free/css/all.min.css'/>" rel="stylesheet" type="text/css">

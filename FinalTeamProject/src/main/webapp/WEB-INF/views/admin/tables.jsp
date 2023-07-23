@@ -1,17 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>  
     
-<%@ include file="inc/top.jsp" %>    
+<%@ include file="inc/top.jsp" %>   
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Tables</h1>
-                    <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
-                        For more information about DataTables, please visit the <a target="_blank"
+                    <h1 class="h3 mb-2 text-gray-800">회원 목록</h1>
+                    <p class="mb-4">현재 가입되어 있는 회원목록 <a target="_blank"
                             href="https://datatables.net">official DataTables documentation</a>.</p>
 
+		
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
