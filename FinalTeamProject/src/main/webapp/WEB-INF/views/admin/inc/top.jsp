@@ -105,18 +105,9 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#board-create-nav"
-                    aria-expanded="true" aria-controls="board-create-nav">
+                <a class="nav-link" href="<c:url value='/admin/board'/>">
                     <i class="fas fa-fw fa-cog"></i>
-                    <span>게시판</span>
-                </a>
-                <div id="board-create-nav" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="<c:url value='/admin/buttons'/>">Buttons</a>
-                        <a class="collapse-item" href="<c:url value='/admin/cards'/>">Cards</a>
-                    </div>
-                </div>
+                    <span>게시판</span></a>
             </li>
 
             <!-- Nav Item - Utilities Collapse Menu -->

@@ -15,6 +15,13 @@ public class AdminController {
 		
 		return "admin/index";
 	}
+	
+	@GetMapping("/board")
+	public String board_get(Model model) {
+		model.addAttribute("title", "게시판 관리");
+		
+		return "admin/board";
+	}
 
 	@GetMapping("/login")
 	public String login_get() {
@@ -46,7 +53,9 @@ public class AdminController {
 	}
 	
 	@GetMapping("/forgot-password")
-	public String forgot_password_get() {
+	public String forgot_password_get(Model model) {
+		model.addAttribute("title", "비밀번호 찾기");
+		
 		return "admin/forgot-password";
 	}
 	
