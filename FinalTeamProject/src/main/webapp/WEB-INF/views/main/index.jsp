@@ -3,21 +3,22 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>    
     
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<c:set var="path" value="${pageContext.request.contextPath }"/>
 
-  <title>Ninestars Bootstrap Template - Index</title>
+  <link href="${path }/images/감사콩로아콘.png" rel="shortcut icon" type="image/x-icon">
+  <title>이젠 MBTI</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   
-	<c:set var="path" value="${pageContext.request.contextPath }"/>
 
   <!-- Favicons -->
   <link href="${path }/assets/img/favicon.png" rel="icon">
-  <link href="${path }//assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="${path }/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
@@ -51,7 +52,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1 class="text-light"><a href="${path }/main/index"><span>Ninestars</span></a></h1>
+        <h1 class="text-light"><a href="${path }/main/index"><span>이젠 MBTI</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
