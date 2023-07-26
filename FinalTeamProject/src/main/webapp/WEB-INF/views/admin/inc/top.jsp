@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
+	<link href="<c:url value='/images/신나로아콘.png'/>" rel="shortcut icon" type="image/x-icon">
     <title>${title }</title>
 
     <!-- Custom fonts for this template-->
