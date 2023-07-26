@@ -23,7 +23,7 @@
 
     <!-- Custom styles for this template-->
     <link href="<c:url value='/admin-css-js/css/sb-admin-2.min.css'/>" rel="stylesheet">
-
+	<link rel="stylesheet" href="https://cdn.jsde">
 </head>
 
 <body id="page-top">
