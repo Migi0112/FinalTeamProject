@@ -20,7 +20,7 @@ button#add-newBoard-button {
 	padding-bottom: 7px;
 }
 
-.board-side-div {
+.board-side-body {
 	height: 85%;
 	border-right: 1px solid #d8dce5;
 	display: inline-block;
@@ -45,6 +45,10 @@ button#add-newBoard-button {
 h1.h3.mb-4.text-gray-800 {
 	display: inline;
 }
+
+.board-group {
+	overflow: auto;
+}
 </style>
 
 <!-- Begin Page Content -->
@@ -54,12 +58,19 @@ h1.h3.mb-4.text-gray-800 {
 	<button type="button" class="bg-gradient-primary"
 		id="add-newBoard-button">새 게시판 추가</button>
 </div>
-<div class="board-side-div">
+<div class="board-side-body">
 	<div class="board-side-div-title">
 		<h4>게시판 리스트</h4>
 		<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
   			<path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
 		</svg>
+	</div>
+	<div class="board-group">
+		<div id="board-group-list"> 
+			<div class="board-side-boardItem">
+				
+			</div>
+		</div>
 	</div>
 </div>
 
