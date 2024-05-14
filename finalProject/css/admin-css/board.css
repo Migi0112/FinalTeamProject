@@ -1,0 +1,628 @@
+@charset "UTF-8";
+
+.bg-orange-primary {
+	background: #eb5d1e;	
+	color: white;
+}
+
+body {
+	overflow: auto;
+}
+
+button#add-newBoard-button {
+	color: white;
+    padding: 4px 25px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+}
+
+.boardFormBtn {
+    display: inline-block;
+    float: right;
+}
+
+.head-div {
+	width: 100%;
+	height: max-content;
+	border-bottom: 1px solid #d8dce5;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 7px;
+}
+
+.side-body {
+	height: 85%;
+	border-right: 1px solid #d8dce5;
+	display: inline-block;
+	width: 220px;
+}
+
+.head-div h2 {
+	display: inline-block;
+	font-weight: bold;
+	margin: 0;
+}
+
+.side-div-title {
+	padding: 20px 10px 15px 20px;
+	border-bottom: 1px solid #d8dce5;
+}
+
+.side-div-title h6 {
+	display: inline-block;
+	margin-right: 48px;
+	margin-bottom: 0;
+}
+
+h1.h3.mb-4.text-gray-800 {
+	display: inline;
+}
+
+.group {
+	overflow: auto;
+}
+
+.side-boardItem {
+	width: 100%;
+	cursor: pointer;
+	margin: 5px;
+	border-radius: 5px;
+	padding: 0;
+}
+
+.board-name {
+	display: inline-block;
+	width: 83%;
+	padding: 10px 15px 10px 30px;
+}
+
+.board-body {
+	display: inline-block;
+    float: right;
+    width: 100%;
+    padding: 16px;
+}
+
+div#board-title {
+	height: 66px;
+	padding: 20px;
+	border-bottom: 1px solid #d8dce5;
+}
+
+div#board-title h5 {
+	font-weight: bold;
+	color: black;
+	display: inline-block;
+}
+
+button#button-addon2-board {
+    width: 75px;
+    height: 40px;
+}
+
+button#board-write-button {
+	float: right;
+    border: 0;
+    border-radius: 5px;
+    padding: 6px 41px;
+    color: white;
+    display: inline-block;
+}
+
+.board-head-Group1 {
+    display: inline-block;
+}
+
+div#board-search-div h5 {
+    display: inline-block;
+    margin-right: 100px;
+    padding: 10px 2px 3px 4px;
+}
+
+div#board-search-div .boardNameAndDel {
+    height: 39px;
+    width: 480px;
+}
+
+input[type="checkbox"].board-checkbox {
+	width: 20px;
+	height: 20px;
+	background: url("../img/checkbox_off.svg") no-repeat center center;
+	background: 100%;
+}
+
+input[type="checkbox"]:checked.board-checkbox {
+	width: 20px;
+	height: 20px;
+	background: url("../img/checkbox_on.svg") no-repeat center center;
+}
+
+div#board-search-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 27px 5px 20px;
+}
+
+input#board-search-area {
+	flex: none;
+	width: 300px;
+}
+
+select#board-search-select {
+	margin-right: 30px;
+	height: 43px;
+	margin-bottom: 0;
+	border: 1px solid #d8dce5;
+	border-radius: 6px;
+	width: 120px;
+}
+
+.board-side-boardItem {
+	width: 200px;
+	cursor: pointer;
+}
+
+th.board-title {
+	width: 60% !important;
+}
+
+th.board-readcount {
+	width: 90px;
+}
+
+th.board-writer {
+	width: 200px;
+}
+
+th.board-regdate {
+	width: 200px;
+}
+
+tr.board-table-colum th {
+	text-align: center;
+}
+
+tbody tr td,
+th {
+	text-align: center;
+}
+
+tbody tr td.board-title {
+	text-align: left;
+}
+
+.boardPaging {
+	display: flex;
+	justify-content: space-around;
+}
+
+tr td.board-readcount {
+	padding-left: 0;
+}
+
+/*게시판 수정 css*/
+.boardEdit-setting-head h3 {
+	display: inline-block;
+	font-weight: bold;
+	color: black;
+	font-size: 17px;
+	margin: 13px 73px 10px 20px;
+}
+
+.boardEdit-setting {
+	border: 1px solid #e1e1e1;
+	background: white;
+	border-radius: 5px;
+	width: 98%;
+	margin-top: 30px;
+}
+
+#save-boardCreate {
+	margin-left: 10px;
+}
+
+.boardEdit-setting-head {
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.boardEdit-setting-body {
+	padding: 20px 30px;
+}
+
+.boardEdit-setting-body dt {
+	font-size: 14px;
+	color: black;
+	float: left;
+	width: 190px;
+	padding: 17px 0;
+}
+
+.boardEdit-setting-body dd {
+	margin-left: 190px;
+	padding: 10px 22px 10px 0;
+}
+
+/*게시판 글쓰기 css*/
+select.form-select.writembti {
+    width: 200px;
+    margin: 0;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#board-title input {
+	border: 0;
+	border-radius: 5px;
+	padding: 5px 20px 5px 20px;
+	color: white;
+}
+
+select#select_board {
+	width: 390px;
+	line-height: 43px;
+	margin-right: 5px;
+	height: 40px;
+	border-radius: 3px;
+	padding: 0 9px;
+	border: 1px solid #d7dde4;
+}
+
+.boardWrite {
+	border: 1px solid #e1e1e1;
+	background: white;
+	border-radius: 5px;
+	width: 98%;
+	margin-top: 30px;
+}
+
+.boardWrite-head {
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.boardWrite-body {
+	padding: 20px 30px;
+}
+
+.boardWrite-body dt {
+	font-size: 14px;
+	color: black;
+	float: left;
+	width: 190px;
+	padding: 17px 0;
+}
+
+.boardWrite-body dd {
+	margin-left: 190px;
+	padding: 10px 22px 10px 0;
+	width: 60%;
+}
+
+input#board-write-title {
+	width: 100%;
+	border: 0;
+	outline-width: 0;
+	height: 38px;
+	padding-left: 10px;
+}
+
+label.resp_checkbox {
+	font-weight: 400;
+	color: black;
+}
+
+label.resp_checkbox>input[type="checkbox"] {
+	width: 21px;
+	height: 21px;
+	vertical-align: sub;
+	margin-right: 5px;
+}
+
+input[type="file"] {
+	width: 270px;
+}
+
+.file_list button {
+	border: 0;
+	background: white;
+}
+
+i.bi.bi-plus-lg {
+	font-size: x-large;
+}
+
+.file_input input[type=text] {
+	border: none;
+	outline-width: 0;
+}
+
+.file_input {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.file_input input[type="file"] {
+	position: absolute;
+	width: 0;
+	height: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 0;
+}
+
+.file_input label {
+	display: inline-block;
+	padding: 1px 20px;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-left: 10px;
+	border-radius: 5px;
+	border: 1px solid #e1e1e1;
+	height: 28px;
+	color: black;
+	margin-top: 10px;
+}
+
+.file_input input[type=text] {
+	display: inline-block;
+	padding: 0 10px;
+	vertical-align: middle;
+	border: 1px solid #dddddd;
+	width: 59%;
+	color: #999999;
+}
+
+.fn_add_btn {
+	margin-left: 10px;
+}
+
+.bi.bi-x-lg {
+	cursor: pointer;
+}
+
+/*게시판 상세보기*/
+div.board-title {
+	padding: 22px;
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+}
+
+p.board-title-name {
+	color: black;
+	font-size: 21px;
+	margin-bottom: 4px;
+}
+
+span.board-write-user-userId {
+	color: black;
+	margin-right: 14px;
+}
+
+.textarea-group {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+textarea#comment-area {
+	width: calc(100% - 100px);
+	height: 80px;
+	border: 1px solid #d3d3d3;
+	resize: none;
+	padding: 5px 9px;
+	border-right: 0;
+	color: #333;
+	font-size: 14px;
+	outline: 0;
+}
+
+input#comment-submit {
+	width: 100px;
+	border: 1px solid #d3d3d3;
+	background: #FFF;
+	font-size: 13px;
+}
+
+p.board-comment-user {
+	color: #333;
+	font-size: 14px;
+}
+
+p.board-comment-count {
+	color: #333;
+	padding: 20px;
+	margin: 0;
+	font-size: 14px;
+	display: inline-block;
+}
+
+form[name=commentFrm] {
+	padding: 20px;
+}
+
+.comment-item > span {
+    margin-top: 20px;
+    margin-left: 10px;
+    color: gray;
+    display: inline-block;
+}
+
+div.board {
+	overflow: auto;
+	background: white;
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-bottom: 25px;
+	border-radius: 10px;
+	padding: 10px;
+	padding-top: 0;
+}
+
+.board-content {
+	min-height: 400px;
+	padding-left: 22px;
+}
+
+.board-head-Group2 {
+	display: flex;
+    width: 580px;
+    justify-content: flex-end;
+}
+
+select.form-select {
+    height: 44px;
+    margin-right: 26px;
+    width: 130px;
+}
+
+.boardFile {
+	display: inline-block;
+	float: right;
+	background: white;
+	font-size: 13px;
+}
+
+div.boardFile button {
+	background: white;
+	border: 0;
+	padding-right: 108px;
+}
+
+i.bi.bi-dropbox {
+	margin-right: 5px;
+}
+
+ul.file-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+}
+
+.commentList {
+    margin: 0px 20px 15px 20px;
+    color: black;
+    padding-top: 10px;
+    border-top: 1px solid black;
+}
+
+.comment-item {
+    border-bottom: 1px solid #e1e1e1;
+    margin-top: 10px;
+    padding: 0px 15px;
+    min-height: 80px;
+}
+
+.comment-item.reply {
+	border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 10px;
+    padding: 0px 15px;
+    padding-left: 70px;
+}
+
+span.comment-write-regdate {
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: normal;
+    color: gray;
+}
+
+p.comment-writer {
+    font-weight: bold;
+    display: inline-block;
+}
+
+span.u_icon {
+	background: url(/mbti/images/ico-post-like-f-53535.svg) no-repeat;
+    background-size: cover;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    margin: 0;
+}
+
+span.u_icon.like {
+    background: url(/mbti/images/ico-post-like-on-f-53535.svg) no-repeat;
+    background-size: cover;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    margin: 0;
+}
+
+.board-like {
+    display: inline-block;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+}
+
+span.boardWriter-commentWrite {
+    margin-left: 15px;
+    border: 1px solid red;
+    color: red;
+    font-size: 11px;
+    padding: 3px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.commentEditOrDel {
+    display: inline-block;
+    float: right;
+}
+
+span.comment-more {
+    cursor: pointer;
+}
+
+commentEditOrDel div {
+    position: absolute;
+}
+
+.editDel {
+    position: absolute;
+    right: 80px;
+    top: auto;
+    background: white;
+    box-shadow: 0 1px 12px 0 rgba(0, 0, 0, .06);
+    border-radius: 6px;
+    padding: 8px 15px;
+    box-sizing: border-box;
+    z-index: 1;
+    max-height: 370px;
+    width: 100px;
+}
+
+a.commentEdit {
+    display: block;
+    color: black;
+    line-height: 34px;
+}
+
+a.comment-reply {
+    font-weight: normal;
+    margin-left: 15px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.commentReply {
+	margin: 0px 0px -20px;
+    border-bottom: 0px;
+}
+
+.editDel a {
+	cursor: pointer;
+}
+
+#commentReply-submit {
+	width: 100px;
+	border: 1px solid #d3d3d3;
+	background: #FFF;
+	font-size: 13px;
+}
+
+.accordion-body {
+	padding: 0 20px;
+	padding-bottom: 0;
+}
